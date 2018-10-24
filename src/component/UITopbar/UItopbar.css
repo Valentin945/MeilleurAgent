@@ -1,0 +1,19 @@
+#background--blue {
+  background-color: blue;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.custom-dropdown {
+  display: flex;
+  flex-direction: row-reverse;
+
+}

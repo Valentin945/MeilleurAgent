@@ -1,13 +1,20 @@
 @media screen and (max-width: 768px) {
-  #homepage-grid {
+
+  #HomePage-row-pc {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  #homepage-grid {
-    display: flex;
+
+  #HomePage-row-phone {
+    display: none
   }
 }
+
+#homepage-grid {
+  display: flex;
+}
+
 
 #invisible-scrollbar::-webkit-scrollbar {
   display: none;

@@ -145,11 +145,11 @@ class HomePage extends Component {
         return (
             <Grid columns={16} id="homepage-grid" style={{marginLeft: '0'}} >
                 <Grid.Row style={{padding: '0px'}}>
-                    <Grid.Column id="invisible-scrollbar" style={{overflowY: "auto", padding: "3px"}} width={5}>
+                    <Grid.Column id="invisible-scrollbar" style={{overflowY: "auto", padding: "3px"}} computer={5} mobile={16}>
                         {list}
                     </Grid.Column>
                     {message.isClicked && 
-                        <Grid.Column  style={{padding: "3px"}} width={11}>
+                        <Grid.Column  style={{padding: "3px"}} computer={11} mobile={16}>
                             <Grid.Row style={{padding: '0'}}>
                                 <UIdescriptionbox
                                 sender={message.firstName + " " + message.lastName}

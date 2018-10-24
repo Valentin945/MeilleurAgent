@@ -49,7 +49,7 @@ export default class UIdropbox extends Component
               </Dropdown.Menu>
             </Dropdown>
         </div>
-        <div style={{display: 'flex', flexDirection: 'column'}}>
+        <div id="UIdropbox-agence" style={{ flexDirection: 'column'}}>
           <div>
             <span style={{color: 'white'}}> {name} </span>
           </div>

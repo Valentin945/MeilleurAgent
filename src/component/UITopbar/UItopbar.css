@@ -17,3 +17,24 @@
   flex-direction: row-reverse;
 
 }
+
+@media screen and (max-width: 991px) {
+  #UItopbar-row-pc {
+    display: none;
+  }
+
+  #UItopbar-row-phone {
+    display: flex;
+  }
+}
+@media screen and (min-width: 991px) {
+  #UItopbar-row-phone {
+    display: none;
+  }
+
+  #UItopbar-row-pc {
+    display: flex;
+  }
+}
+
+

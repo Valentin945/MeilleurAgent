@@ -9,7 +9,6 @@ import * as RoutesModule from './routes.js';
 let routes = RoutesModule.routes;
 
 const App = () => {
-  console.log(routes)
   return (
     <Provider store={store}>
       <Router history={history} children={ routes } />

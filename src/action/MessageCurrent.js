@@ -9,7 +9,6 @@ const receiveMessageCurrentAction = (elmt) => {
 const MessageCurrentAction = (elmt) => {
   return (dispatch, getState) => {
     const LsScreen = screen.width
-    console.log(LsScreen)
     if (LsScreen < 991)
     {
       history.push('/message')

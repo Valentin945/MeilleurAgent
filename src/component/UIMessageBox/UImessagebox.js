@@ -24,7 +24,7 @@ export default class UImessagebox extends Component
     const color = this.props.icon? "blue" : 'grey'
     const rotated = icon === "phone"? "clockwise": ""
     return (
-      <Card.Group itemsPerRow={1} style={{margin: '0'}} onClick={() => onClick()}>
+      <Card.Group className='UImessagebox-card-group' itemsPerRow={1} style={{margin: '0'}} onClick={() => onClick()}>
         <Card style={{margin: "0", padding: '10px 2px 10px 2px'}}>
           <Card.Content style={{margin: "0", padding: '0'}}>
             <Card.Header style={{display: 'flex'}}>

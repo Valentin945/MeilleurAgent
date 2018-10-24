@@ -5,3 +5,8 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.UImessagebox-card-group:hover
+{
+  cursor: pointer;
+}
